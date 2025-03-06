@@ -17,7 +17,7 @@ const Contactus = () => {
 // 		{
 //         window.grecaptcha.render("recaptcha-container", 
 // 		{
-//           sitekey: "6LfZidkqAAAAACfhgnj9ViCxdo2r2-XsoVkqp46x", // Replace with your actual site key
+//           sitekey: "6LejNusqAAAAAAmo3Cz6P5kbkpcMMdQOMv3EmmC-", // Replace with your actual site key
 //           callback: (token) => setCaptchaToken(token),
 //         });
 //       } 
@@ -49,7 +49,7 @@ useEffect(() => {
 	  {
       window.grecaptcha.render("recaptcha-container", 
 	    {
-        sitekey: "6LfZidkqAAAAACfhgnj9ViCxdo2r2-XsoVkqp46x", // Your site key
+        sitekey: "6LejNusqAAAAAAmo3Cz6P5kbkpcMMdQOMv3EmmC-", // Your site key
         callback: (token) => setCaptchaToken(token),
       });
     }
